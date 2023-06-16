@@ -1,0 +1,5 @@
+rootProject.name = 'parent-modules'
+include 'core-java-modules'
+include 'core-java-modules:core-java-collections'
+findProject(':core-java-modules:core-java-collections')?.name = 'core-java-collections'
+
