@@ -1,5 +1,11 @@
 rootProject.name = 'parent-modules'
+
 include 'core-java-modules'
+include 'spring-boot-modules'
+
 include 'core-java-modules:core-java-collections'
+include 'spring-boot-modules:spring-boot-libs'
+
 findProject(':core-java-modules:core-java-collections')?.name = 'core-java-collections'
+findProject(':spring-boot-modules:spring-boot-libs')?.name = 'spring-boot-libs'
 
