@@ -22,7 +22,7 @@ class TextBlock14Test {
     @Test
     void ending_spaces_test() throws Exception {
         // given
-        String expected = "line 1\nline 2       \n";
+        String expected = "line 1\nline 2        \n";
 
         // when
 
