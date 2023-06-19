@@ -33,6 +33,10 @@ dependencies {
 
     // Apache Commons Lang
     implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    // assertj-core
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+
 }
 
 tasks.named('test') {

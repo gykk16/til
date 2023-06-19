@@ -4,8 +4,11 @@ include 'core-java-modules'
 include 'spring-boot-modules'
 
 include 'core-java-modules:core-java-collections'
-include 'spring-boot-modules:spring-boot-libs'
-
 findProject(':core-java-modules:core-java-collections')?.name = 'core-java-collections'
+
+include 'spring-boot-modules:spring-boot-libs'
 findProject(':spring-boot-modules:spring-boot-libs')?.name = 'spring-boot-libs'
+
+include 'core-java-modules:core-java-14'
+findProject(':core-java-modules:core-java-14')?.name = 'core-java-14'
 
