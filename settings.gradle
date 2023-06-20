@@ -13,4 +13,5 @@ include 'spring-boot-modules:spring-boot-libs'
 findProject(':spring-boot-modules:spring-boot-libs')?.name = 'spring-boot-libs'
 include 'spring-boot-modules:spring-data-jpa'
 findProject(':spring-boot-modules:spring-data-jpa')?.name = 'spring-data-jpa'
+include 'custom-utils'
 
