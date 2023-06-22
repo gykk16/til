@@ -16,4 +16,5 @@ findProject(':spring-boot-modules:spring-data-jpa')?.name = 'spring-data-jpa'
 include 'custom-utils'
 include 'core-java-modules:core-java-stream'
 findProject(':core-java-modules:core-java-stream')?.name = 'core-java-stream'
+include 'pattern-modules'
 
