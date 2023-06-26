@@ -17,4 +17,6 @@ include 'custom-utils'
 include 'core-java-modules:core-java-stream'
 findProject(':core-java-modules:core-java-stream')?.name = 'core-java-stream'
 include 'pattern-modules'
+include 'core-java-modules:core-java-io'
+findProject(':core-java-modules:core-java-io')?.name = 'core-java-io'
 
