@@ -1,8 +1,7 @@
 package dev.glory.lecture.l04;
 
-import org.jetbrains.annotations.NotNull;
 
-public class Money implements Comparable<Money>{
+public class Money implements Comparable<Money> {
 
     private int amount;
 
@@ -11,7 +10,7 @@ public class Money implements Comparable<Money>{
     }
 
     @Override
-    public int compareTo(@NotNull Money o) {
+    public int compareTo(Money o) {
         return this.amount - o.amount;
     }
 }
