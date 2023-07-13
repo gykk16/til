@@ -1,4 +1,4 @@
-package dev.glory.designpattern.factorymethod._01_before;
+package dev.glory.designpattern.createpattern.factorymethod._01_before;
 
 public class ShipFactory {
 

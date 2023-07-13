@@ -1,4 +1,4 @@
-package dev.glory.designpattern.factorymethod._02_after;
+package dev.glory.designpattern.createpattern.factorymethod._02_after;
 
 public class Client {
 

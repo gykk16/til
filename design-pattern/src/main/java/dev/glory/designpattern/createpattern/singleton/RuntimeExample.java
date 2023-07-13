@@ -1,4 +1,4 @@
-package dev.glory.designpattern.singleton;
+package dev.glory.designpattern.createpattern.singleton;
 
 public class RuntimeExample {
 

@@ -1,7 +1,4 @@
-package dev.glory.designpattern.factorymethod._01_before;
-
-import lombok.Getter;
-import lombok.Setter;
+package dev.glory.designpattern.createpattern.factorymethod._02_after;
 
 public class Ship {
 
