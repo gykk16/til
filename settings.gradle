@@ -21,5 +21,6 @@ include 'core-java-modules:core-java-io'
 findProject(':core-java-modules:core-java-io')?.name = 'core-java-io'
 include 'core-java-modules:core-java-concurrency'
 findProject(':core-java-modules:core-java-concurrency')?.name = 'core-java-concurrency'
+include 'design-pattern'
 include 'start-kotlin'
 
