@@ -1,0 +1,5 @@
+### Find all github users
+GET http://localhost:8080/github-users
+
+### Find github user by loginId
+GET http://localhost:8080/github-users/gykk16
