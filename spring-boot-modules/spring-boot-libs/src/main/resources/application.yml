@@ -5,3 +5,7 @@ openai:
   api:
     url: https://api.openai.com/v1/chat/completions
     key: <your-api-key>
+
+logging:
+  level:
+    web: debug
