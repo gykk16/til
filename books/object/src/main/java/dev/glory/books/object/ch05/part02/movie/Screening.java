@@ -24,6 +24,9 @@ public class Screening {
         this.whenScreened = whenScreened;
     }
 
+    /*
+    예매하라 메시지에 응답 할 수 있어야 한다.
+     */
     public Reservation reserve(Customer customer, int audienceCount) {
         return new Reservation(customer, this, calculateFee(audienceCount), audienceCount);
     }
