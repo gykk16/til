@@ -1,6 +1,7 @@
 package io.glory.clazz.inlinevalue
 
 import com.fasterxml.jackson.annotation.JsonCreator
+import io.glory.clazz.`object`.StringUtils.removeSpaceAndHypen
 import io.glory.clazz.`object`.StringUtils.removeSpaces
 
 /**
@@ -17,7 +18,7 @@ value class CarNumber private constructor(val value: String) {
 
         @JsonCreator
         fun from(value: String): CarNumber {
-            return CarNumber(value.removeSpaces())
+            return CarNumber(value.removeSpaceAndHypen())
         }
 
         operator fun invoke(carNumber: String): CarNumber = from(carNumber)
